@@ -6,7 +6,7 @@ import Footer from "@/app/components /Footer";
 import WhatsAppButton from "@/app/components /WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Cuzco | Soluciones en Extranjería 360",
+  title: "Soluciones en Extranjería 360",
   description:
     "Asesoramiento en extranjería en Madrid: residencia, arraigo, reagrupación familiar, nacionalidad y renovaciones.",
   icons: {
