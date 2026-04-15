@@ -32,6 +32,28 @@ export default function Hero() {
             española y visa nómada digital.
           </p>
 
+          <div className="mt-8 bg-white/10 border border-white/20 rounded-xl p-6 max-w-xl">
+  <h3 className="text-xl font-semibold text-amber-400 mb-2">
+    Regularización completa desde 295€
+  </h3>
+
+  <p className="text-sm text-slate-200 mb-3">
+    Servicio dividido en dos fases para mayor claridad:
+  </p>
+
+  <ul className="text-sm text-slate-300 space-y-1">
+    <li><strong>145€</strong> — estudio del caso + asesoramiento + documentación</li>
+    <li><strong>150€</strong> — antes de presentar la solicitud</li>
+  </ul>
+
+  <a
+    href="/contacto"
+    className="inline-block mt-4 bg-amber-400 text-black px-4 py-2 rounded-lg font-medium hover:bg-amber-300 transition"
+  >
+    Solicitar información
+  </a>
+</div>
+
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
               href="/contacto"

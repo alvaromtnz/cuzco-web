@@ -22,6 +22,18 @@ export default function ServicesPreview() {
             Ver todos
           </Link>
         </div>
+        <div className="mt-8 mb-6 rounded-xl bg-amber-50 border border-amber-200 p-6">
+  <h3 className="text-lg font-semibold text-slate-900">
+    💼 Oferta de regularización
+  </h3>
+  <p className="text-sm text-slate-700 mt-2">
+    Gestionamos tu regularización completa por <strong>295€</strong>:
+  </p>
+  <ul className="text-sm text-slate-600 mt-2 space-y-1">
+    <li>• 145€ iniciales: estudio + asesoramiento + documentación</li>
+    <li>• 150€ antes de presentar la solicitud</li>
+  </ul>
+</div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service) => (
